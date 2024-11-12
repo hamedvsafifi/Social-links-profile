@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Inter VariableFont";
+  src: url("../assest/social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf")
+    format("truetype");
+}
+
+body {
+  font-family: "Inter VariableFont", sans-serif; /* Use the custom font */
+  box-sizing: border-box;
+  text-align: center;
+  margin: auto;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 8%);
+  size: 100vh;
+}
+
+.pp {
+  width: fit-content;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  padding: 40px;
+  margin: auto;
+  width: 500px;
+  height: auto;
+  border-radius: 40px;
+}
+
+.mainbutton {
+  display: grid;
+  gap: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Inter VariableFont";
+  src: url("../assest/social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf")
+    format("truetype");
+}
+
+body {
+  font-family: "Inter VariableFont", sans-serif; /* Use the custom font */
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 8%);
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: auto;
+}
+
+h2 {
+  font-size: 0.8rem;
+  color: hsl(75, 94%, 57%);
+}
+
+h3 {
+  font-size: 0.7rem;
+  padding: 10px;
+  color: hsl(0, 0%, 60%);
+}
+
+img {
+  border-radius: 100px;
+  transition: border-radius 1s;
+}
+img:hover {
+  border-radius: 0px;
+}
+
+.pp {
+  width: fit-content;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  padding: 40px;
+  width: 500px;
+  height: auto;
+  border-radius: 40px;
+}
+
+.mainbutton {
+  display: grid;
+  gap: 15px;
+}
+
+.mainbutton button {
+  all: unset;
+  border-style: solid;
+  background-color: hsl(0, 0%, 20%);
+  border-color: hsl(0, 0%, 20%);
+  margin: 3px;
+  height: 40px;
+  border-radius: 10px;
+  color: whitesmoke;
+  transition: background-color 0.5s ease-in, color 0.5s ease-in-out;
+}
+
+.mainbutton button:hover {
+  background-color: hsl(75, 99%, 65%);
+  color: black;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
